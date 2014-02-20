@@ -1,2 +1,1 @@
-from .pycharts import *
-
+from pycharts import *
