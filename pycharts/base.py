@@ -12,3 +12,6 @@ class BaseChart(object):
         df: pd.DataFrame
         """
         raise NotImplementedError
+
+    def scatter(self, x, y, df):
+        raise NotImplementedError
